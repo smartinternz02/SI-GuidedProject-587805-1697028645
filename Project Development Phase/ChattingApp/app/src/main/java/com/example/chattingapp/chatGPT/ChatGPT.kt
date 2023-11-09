@@ -92,7 +92,7 @@ class ChatGPT : AppCompatActivity() {
         val body = jsonBody.toString().toRequestBody(JSON)
         val request = Request.Builder()
             .url("https://api.openai.com/v1/completions")
-            .header("Authorization", "Bearer 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")
+            .header("Authorization", "Bearer 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")
             .post(body)
             .build()
 
